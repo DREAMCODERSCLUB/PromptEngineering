@@ -5,16 +5,15 @@ PromptCraft Lab is an interactive playground that demonstrates how different pro
 It helps learners and developers explore Zero-shot, One-shot, Few-shot, and Chain-of-Thought (CoT) prompting strategies with real-time comparisons.
 
 
-<img width="1277" alt="image" src="https://github.com/user-attachments/assets/068c570a-084c-4a37-8bd7-e75850636ada" />
-
-
-
 Example interface:
 - 🧠 Choose a task (e.g., Summarize, Sentiment Analysis, or General Question)
   
 - ✍️ Enter your input text
   
 - ⚡️ Compare how the Gemini model responds under different prompting techniques
+  
+<img width="1277" alt="image" src="https://github.com/user-attachments/assets/068c570a-084c-4a37-8bd7-e75850636ada" />
+
 
 📦 Features
 
@@ -41,38 +40,37 @@ Google Generative AI SDK
 dotenv
 
 🧠 Prompt Engineering Types
-Prompt Type	        Description
 
-Zero-shot	          Directly asks the model to perform a task without examples.
+Zero-shot	         -  Directly asks the model to perform a task without examples.
 
-One-shot	          Includes one example before the task.
+One-shot	         -  Includes one example before the task.
 
-Few-shot	          Includes multiple examples to improve performance and alignment.
+Few-shot	         -  Includes multiple examples to improve performance and alignment.
 
-Chain-of-Thought	  Prompts the model to reason step-by-step (useful for logical questions).
+Chain-of-Thought	 -  Prompts the model to reason step-by-step (useful for logical questions).
 
 
 🔐 Setup Instructions
 
-Clone the repository
+1. Clone the repository
 
-git clone https://github.com/DREAMCODERSCLUB/promptcraft-lab.git
+        git clone https://github.com/DREAMCODERSCLUB/promptcraft-lab.git
 
-cd promptcraft-lab
+        cd promptcraft-lab
 
-Install dependencies
+2. Install dependencies
 
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
-Add your API key
+3. Add your API key
 
 Create a .env file in the root directory with your Gemini API key:
 
-GOOGLE_API_KEY=your_gemini_api_key_here
+        GOOGLE_API_KEY=your_gemini_api_key_here
 
-Run the app
+4. Run the app
 
-python app.py
+        python app.py
 
 Your app will launch at http://127.0.0.1:7860
 
@@ -88,13 +86,13 @@ Examples -
 
 📌 Future Ideas
 
-Add more NLP tasks (e.g., translation, topic classification)
+- Add more NLP tasks (e.g., translation, topic classification)
 
-Visualize response quality metrics
+- Visualize response quality metrics
 
-Let users add their own examples
+- Let users add their own examples
 
-Integrate Pinecone for embedding-based similarity
+- Integrate Pinecone for embedding-based similarity
 
 
 🤝 Contributing
